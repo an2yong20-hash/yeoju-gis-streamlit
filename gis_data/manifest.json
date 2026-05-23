@@ -1,0 +1,59 @@
+{
+  "generated_at_utc": "2026-04-28T21:02:57.285385+00:00",
+  "scope": {
+    "target_sido": "경기도",
+    "target_gusigun": "여주시",
+    "current_election_key": "202506-P",
+    "historical_election_keys": [
+      "201806-L1",
+      "202404-N1",
+      "202506-P"
+    ],
+    "area_emd_names": [
+      "중앙동",
+      "오학동",
+      "가남읍",
+      "점동면",
+      "강천면",
+      "세종대왕면",
+      "대신면",
+      "북내면",
+      "여흥동",
+      "흥천면",
+      "금사면",
+      "산북면"
+    ]
+  },
+  "files": {
+    "dim_election_rows": 3,
+    "dim_polling_place_rows": 54,
+    "fact_turnout_rows": 71,
+    "fact_confirmed_electorate_rows": 55,
+    "fact_votes_rows": 439,
+    "geometry_features": 12,
+    "geometry_source": "C:\\Users\\an2yo\\Desktop\\electioninfo\\cache\\geometry\\emd_boundaries.geojson",
+    "geometry_emd_keys": [
+      "경기도 여주시 가남읍",
+      "경기도 여주시 강천면",
+      "경기도 여주시 금사면",
+      "경기도 여주시 대신면",
+      "경기도 여주시 북내면",
+      "경기도 여주시 산북면",
+      "경기도 여주시 세종대왕면",
+      "경기도 여주시 여흥동",
+      "경기도 여주시 오학동",
+      "경기도 여주시 점동면",
+      "경기도 여주시 중앙동",
+      "경기도 여주시 흥천면"
+    ],
+    "jurisdiction_source": "C:\\Users\\an2yo\\Desktop\\여주시 투표구 관할구역.xlsx",
+    "jurisdiction_rows": 42,
+    "dim_election_checked_rows": 3,
+    "dim_polling_place_checked_rows": 54,
+    "fact_turnout_checked_rows": 71,
+    "fact_confirmed_electorate_checked_rows": 55,
+    "fact_votes_current_checked_rows": 355,
+    "fact_votes_history_checked_rows": 144,
+    "geometry_checked_features": 12
+  }
+}
